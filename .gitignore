@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Data jsou obří, musím je dát pryč z Gitu...
+/data
+
+# Taky si říkám, že je zbytečné trackovat prezentace a tak...
+/kout
+
+# A renv by tam taky nemusel být..
+/renv
+
