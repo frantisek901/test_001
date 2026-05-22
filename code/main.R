@@ -2,6 +2,15 @@
 
 ## Encoding: UTF-8
 
+## Inspirace -- balíčky:
+# package na LLM API
+# install.packages("ellmer")
+# install.packages("remotes")
+# remotes::install_github("RE-QDA/requal")
+# install.packages("requal",
+#     repos = c("https://re-qda.r-universe.dev", "https://cloud.r-project.org"))
+
+
 # Hlavička ---------------------------------------------------------------
 
 rm(list = ls())

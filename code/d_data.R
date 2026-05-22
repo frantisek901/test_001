@@ -8,7 +8,9 @@ tko <- read_sav(
     "data/kult_orig/Kult2012_3kraje_UstVysZli_CSDA_pub_nove_bez_jmen.sav") |>
   as_factor() 
   
+tks <- read_csv("data/kult_synth/Diffusion_synthetic_n10000.csv")
 
-tks <- read_csv(
-    "data/kult_synth/Diffusion_synthetic_n10000.csv"
-)
+tpo <- read_sav("data/piaac_orig/PRGCZEP2.sav") |>
+  as_factor()
+
+tps <- read_csv("data/piaac_synth/synthetic_DIFFUSION_mode500.csv")
